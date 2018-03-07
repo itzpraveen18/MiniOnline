@@ -16,3 +16,24 @@
     </dependency>
   </dependencies>
 </project>
+
+<dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+<distributionManagement>
+    <repository>
+      <id>MiniCopier</id>
+      <url>http://localhost:8089/nexus/content/repositories/MiniCopier/</url>
+    </repository>
+    <snapshotRepository>
+      <id>MiniCopiers</id>
+      <url>http://localhost:8089/nexus/content/repositories/MiniCopiers/</url>
+    </snapshotRepository>
+  </distributionManagement>
+</project>
